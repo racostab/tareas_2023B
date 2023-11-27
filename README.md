@@ -7,7 +7,7 @@ por guion medio (primera letra mayuscula) y si esta formado
 por varias palabras usar un guion bajo. Aunque no se tenga
 un apellido usar los guiones.
 
-# Ejemplos
+## Ejemplos
 
 Paterno-Materno-Nombre
 
