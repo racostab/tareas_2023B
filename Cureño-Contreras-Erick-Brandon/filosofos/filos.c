@@ -91,8 +91,6 @@ int main(int argc, char** argv) {
 	for (int i = 0; i < num_fil; i++){
 		pthread_join(filosofos[i], NULL);
 	}
-
-
     return 0;
 }
 
