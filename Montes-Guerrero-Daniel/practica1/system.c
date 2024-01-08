@@ -11,7 +11,7 @@ int main(){
 	pid_t pid;
 	pid = fork();
 	if(pid == 0){
-		system("cat system.c");
+		system("ls");
 	}
 	else{
 		printf("Soy system.c\n");
