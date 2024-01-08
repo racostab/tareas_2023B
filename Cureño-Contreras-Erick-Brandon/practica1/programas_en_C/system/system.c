@@ -1,7 +1,7 @@
 /*
-	Autor: Cureño Contreras Erick Brandon
-	Compilación: gcc -o system system.c
-	Ejecución: ./system
+	Autor: CureÃ±o Contreras Erick Brandon
+	CompilaciÃ³n: gcc -o system system.c
+	EjecuciÃ³n: ./system
 */
 #include <stdio.h>
 #include <unistd.h>
@@ -11,7 +11,7 @@ int main(){
     pid_t pid;
 	pid = fork();
 	if(pid == 0){
-		system("Cat system");
+		system("ls");
 	}
 	else{
 		printf("Soy system\n");
