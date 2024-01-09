@@ -1,20 +1,22 @@
 /*
  * Alumno: Daniel Montes Guerrero
- * Compilar: gcc system.c
+ * Compilar: g++ system.cpp
  */
 
-#include<stdio.h>
+#include<iostream>
 #include<unistd.h>
 #include<sys/types.h>
+
+using namespace std;
 
 int main(){
 	pid_t pid;
 	pid = fork();
 	if(pid == 0){
-		system("cat system.c");
+		system("cat system.cpp");
 	}
 	else{
-		printf("Soy system.c\n");
+		cout << "Soy system.cpp" << endl;
 	}
 	return 0;
 }
